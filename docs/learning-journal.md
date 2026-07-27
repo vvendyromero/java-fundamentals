@@ -42,4 +42,4 @@ _(Practicar con problemas)_
 
 ## Reflexión
 
-Hoy publiqué mi primer proyecto en GitHub y entendí que los errores del compilador son parte del aprendizaje. Mi objetivo es construir una base sólida para convertirme en desarrolladora de software.
+Hoy pienso que aprendi conceptos basicos que me seran muy utiles en este camino. 
