@@ -12,15 +12,6 @@ target/
 *.iws
 *.iml
 *.ipr
-# IntelliJ
-.idea/
-
-# Sistema operativo
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
 
 ### Eclipse ###
 .apt_generated
