@@ -7,11 +7,16 @@ public class ScannerExample {
         Scanner scanner = new Scanner(System.in);
         System.out.print("¿Cómo te llamas? ");
         String nombre = scanner.nextLine();
-        System.out.println("Hola " + nombre + ", mucho gusto.");
-        System.out.print("¿En que ciudad vives? ");
-        String ciudad = scanner.nextLine();
         System.out.print("¿Cuantos años tienes? ");
         int edad = scanner.nextInt();
+        System.out.print("¿En que ciudad vives? ");
+        scanner.nextLine(); // Consume el Enter pendiente
+        String ciudad = scanner.nextLine();
+        System.out.println();
+        System.out.println("Hola " + nombre + ".");
+        System.out.println("Tienes " + edad + " años.");
+        System.out.println("Vives en " + ciudad + ".");
+
         scanner.close();
 
     }
